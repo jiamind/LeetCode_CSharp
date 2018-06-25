@@ -10,6 +10,17 @@ namespace LeetCode_CSharp
     {
         static void Main(string[] args)
         {
+            RunLargestRectangleInHistogram();
         }
+
+        #region LargestRectangleInHistogram
+        static void RunLargestRectangleInHistogram()
+        {
+            LargestRectangleInHistogram test = new LargestRectangleInHistogram();
+            int[] input = new int[] { 2, 1, 5, 6, 2, 3 };
+            int output = test.LargestRectangleArea2(input);
+            Console.WriteLine(output);
+        }
+        #endregion
     }
 }
