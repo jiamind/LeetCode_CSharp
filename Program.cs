@@ -8,7 +8,8 @@ namespace LeetCode_CSharp
         {
             //RunLargestRectangleInHistogram();
             //RunMaxPointsOnALine();
-            RunEvaluateReversePolishNotation();
+            //RunEvaluateReversePolishNotation();
+            RunMinStack();
         }
 
         #region LargestRectangleInHistogram
@@ -41,6 +42,19 @@ namespace LeetCode_CSharp
             string[] input = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
             int output = test.EvalRPN(input);
             Console.WriteLine(output);
+        }
+        #endregion
+
+        #region MinStack
+        static void RunMinStack()
+        {
+            MinStack test = new MinStack();
+            test.Push(0);
+            test.Push(1);
+            test.Push(0);
+            test.GetMin();
+            test.Pop();
+            test.GetMin();
         }
         #endregion
     }
