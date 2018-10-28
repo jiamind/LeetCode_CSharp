@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCode_CSharp
 {
@@ -10,7 +11,8 @@ namespace LeetCode_CSharp
             //RunMaxPointsOnALine();
             //RunEvaluateReversePolishNotation();
             //RunMinStack();
-            RunBasicCalculator();
+            //RunBasicCalculator();
+            RunSummaryRangesProblem();
         }
 
         #region LargestRectangleInHistogram
@@ -65,6 +67,23 @@ namespace LeetCode_CSharp
             BasicCalculator test = new BasicCalculator();
             string s = "(5-(1+(5)))";
             Console.WriteLine(test.Calculate(s));
+            Console.ReadKey();
+        }
+        #endregion
+
+        #region SummaryRangesProblem
+        static void RunSummaryRangesProblem()
+        {
+            SummaryRangesProblem test = new SummaryRangesProblem();
+            int[] nums = new int[] { 0, 2, 3, 4, 6, 8, 9 };
+
+            IList<string> result = test.SummaryRanges(nums);
+            Console.Write("[");
+            foreach (string str in result)
+            {
+                Console.Write(str + ", ");
+            }
+            Console.Write("]");
             Console.ReadKey();
         }
         #endregion

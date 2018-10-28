@@ -49,6 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
     <Compile Include="EvaluateReversePolishNotation.cs" />
+    <Compile Include="SummaryRangesProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
