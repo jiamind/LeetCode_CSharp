@@ -9,7 +9,8 @@ namespace LeetCode_CSharp
             //RunLargestRectangleInHistogram();
             //RunMaxPointsOnALine();
             //RunEvaluateReversePolishNotation();
-            RunMinStack();
+            //RunMinStack();
+            RunBasicCalculator();
         }
 
         #region LargestRectangleInHistogram
@@ -55,6 +56,16 @@ namespace LeetCode_CSharp
             test.GetMin();
             test.Pop();
             test.GetMin();
+        }
+        #endregion
+
+        #region BasicCalculator
+        static void RunBasicCalculator()
+        {
+            BasicCalculator test = new BasicCalculator();
+            string s = "(5-(1+(5)))";
+            Console.WriteLine(test.Calculate(s));
+            Console.ReadKey();
         }
         #endregion
     }
