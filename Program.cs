@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace LeetCode_CSharp
@@ -13,6 +13,7 @@ namespace LeetCode_CSharp
             //RunMinStack();
             //RunBasicCalculator();
             RunSummaryRangesProblem();
+            RunMaximumProductSubarray();
         }
 
         #region LargestRectangleInHistogram
@@ -44,6 +45,16 @@ namespace LeetCode_CSharp
             EvaluateReversePolishNotation test = new EvaluateReversePolishNotation();
             string[] input = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
             int output = test.EvalRPN(input);
+            Console.WriteLine(output);
+        }
+        #endregion
+
+        #region MaximumProductSubarray
+        static void RunMaximumProductSubarray()
+        {
+            MaximumProductSubarray test = new MaximumProductSubarray();
+            int[] input = { 2, 3, -2, 4 };
+            int output = test.MaxProduct(input);
             Console.WriteLine(output);
         }
         #endregion
