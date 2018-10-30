@@ -51,6 +51,7 @@
     <Compile Include="EvaluateReversePolishNotation.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
+    <Compile Include="PowerOfTwo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
