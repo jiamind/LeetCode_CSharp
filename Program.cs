@@ -1,23 +1,24 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace LeetCode_CSharp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //RunLargestRectangleInHistogram();
             //RunMaxPointsOnALine();
             //RunEvaluateReversePolishNotation();
             //RunMinStack();
             //RunBasicCalculator();
-            RunSummaryRangesProblem();
-            RunMaximumProductSubarray();
+            //RunSummaryRangesProblem();
+            //RunMaximumProductSubarray();
+            RunMeetingRoomsIIProblem();
         }
 
         #region LargestRectangleInHistogram
-        static void RunLargestRectangleInHistogram()
+        public static void RunLargestRectangleInHistogram()
         {
             LargestRectangleInHistogram test = new LargestRectangleInHistogram();
             int[] input = { 2, 1, 5, 6, 2, 3 };
@@ -27,7 +28,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region MaxPointsOnALine
-        static void RunMaxPointsOnALine()
+        public static void RunMaxPointsOnALine()
         {
             MaxPointsOnALine test = new MaxPointsOnALine();
             Point[] points = new Point[3];
@@ -40,7 +41,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region EvaluateReversePolishNotation
-        static void RunEvaluateReversePolishNotation()
+        public static void RunEvaluateReversePolishNotation()
         {
             EvaluateReversePolishNotation test = new EvaluateReversePolishNotation();
             string[] input = { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
@@ -50,7 +51,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region MaximumProductSubarray
-        static void RunMaximumProductSubarray()
+        public static void RunMaximumProductSubarray()
         {
             MaximumProductSubarray test = new MaximumProductSubarray();
             int[] input = { 2, 3, -2, 4 };
@@ -60,7 +61,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region MinStack
-        static void RunMinStack()
+        public static void RunMinStack()
         {
             MinStack test = new MinStack();
             test.Push(0);
@@ -73,7 +74,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region BasicCalculator
-        static void RunBasicCalculator()
+        public static void RunBasicCalculator()
         {
             BasicCalculator test = new BasicCalculator();
             string s = "(5-(1+(5)))";
@@ -83,7 +84,7 @@ namespace LeetCode_CSharp
         #endregion
 
         #region SummaryRangesProblem
-        static void RunSummaryRangesProblem()
+        public static void RunSummaryRangesProblem()
         {
             SummaryRangesProblem test = new SummaryRangesProblem();
             int[] nums = new int[] { 0, 2, 3, 4, 6, 8, 9 };
@@ -95,6 +96,16 @@ namespace LeetCode_CSharp
                 Console.Write(str + ", ");
             }
             Console.Write("]");
+            Console.ReadKey();
+        }
+        #endregion
+
+        #region MeetingRoomsIIProblem
+        public static void RunMeetingRoomsIIProblem()
+        {
+            MeetingRoomsII test = new MeetingRoomsII();
+            Interval[] intervals = new[] { new Interval(0, 30), new Interval(5, 10), new Interval(15, 20) };
+            Console.WriteLine(test.MinMeetingRooms(intervals));
             Console.ReadKey();
         }
         #endregion
