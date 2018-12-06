@@ -14,7 +14,8 @@ namespace LeetCode_CSharp
             //RunBasicCalculator();
             //RunSummaryRangesProblem();
             //RunMaximumProductSubarray();
-            RunMeetingRoomsIIProblem();
+            //RunMeetingRoomsIIProblem();
+            RunFruitIntoBasketProblem();
         }
 
         #region LargestRectangleInHistogram
@@ -106,6 +107,16 @@ namespace LeetCode_CSharp
             MeetingRoomsII test = new MeetingRoomsII();
             Interval[] intervals = new[] { new Interval(0, 30), new Interval(5, 10), new Interval(15, 20) };
             Console.WriteLine(test.MinMeetingRooms(intervals));
+            Console.ReadKey();
+        }
+        #endregion
+
+        #region FruitIntoBasketsProblem
+        public static void RunFruitIntoBasketProblem()
+        {
+            FruitIntoBaskets test = new FruitIntoBaskets();
+            int[] tree = new[] { 3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4 };
+            Console.WriteLine(test.TotalFruit(tree));
             Console.ReadKey();
         }
         #endregion
