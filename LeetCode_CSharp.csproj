@@ -55,6 +55,7 @@
     <Compile Include="MaximumProductSubarray.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="SearchA2DMatrixII.cs" />
+    <Compile Include="UniqueEmailAddresses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

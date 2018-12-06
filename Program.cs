@@ -15,7 +15,8 @@ namespace LeetCode_CSharp
             //RunSummaryRangesProblem();
             //RunMaximumProductSubarray();
             //RunMeetingRoomsIIProblem();
-            RunFruitIntoBasketProblem();
+            //RunFruitIntoBasketProblem();
+            RunUniqueEmailAddressesProblem();
         }
 
         #region LargestRectangleInHistogram
@@ -117,6 +118,16 @@ namespace LeetCode_CSharp
             FruitIntoBaskets test = new FruitIntoBaskets();
             int[] tree = new[] { 3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4 };
             Console.WriteLine(test.TotalFruit(tree));
+            Console.ReadKey();
+        }
+        #endregion
+
+        #region UniqueEmailAddressesProblem
+        public static void RunUniqueEmailAddressesProblem()
+        {
+            UniqueEmailAddresses test = new UniqueEmailAddresses();
+            string[] emails = new[] { "test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" };
+            Console.WriteLine(test.NumUniqueEmails(emails));
             Console.ReadKey();
         }
         #endregion
