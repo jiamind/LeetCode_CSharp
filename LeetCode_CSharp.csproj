@@ -47,6 +47,7 @@
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
+    <Compile Include="PerfectSquares.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="SearchA2DMatrixII.cs" />
     <Compile Include="UniqueEmailAddresses.cs" />
+    <Compile Include="WiggleSortProblem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

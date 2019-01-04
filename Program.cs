@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace LeetCode_CSharp
 {
+    using System.Linq;
+
     public class Program
     {
         public static void Main(string[] args)
@@ -16,7 +18,10 @@ namespace LeetCode_CSharp
             //RunMaximumProductSubarray();
             //RunMeetingRoomsIIProblem();
             //RunFruitIntoBasketProblem();
-            RunUniqueEmailAddressesProblem();
+            //RunUniqueEmailAddressesProblem();
+            //RunPerfectSquareProblem();
+            RunWiggleSortProblem();
+            Console.ReadKey();
         }
 
         #region LargestRectangleInHistogram
@@ -81,7 +86,6 @@ namespace LeetCode_CSharp
             BasicCalculator test = new BasicCalculator();
             string s = "(5-(1+(5)))";
             Console.WriteLine(test.Calculate(s));
-            Console.ReadKey();
         }
         #endregion
 
@@ -98,7 +102,6 @@ namespace LeetCode_CSharp
                 Console.Write(str + ", ");
             }
             Console.Write("]");
-            Console.ReadKey();
         }
         #endregion
 
@@ -108,7 +111,6 @@ namespace LeetCode_CSharp
             MeetingRoomsII test = new MeetingRoomsII();
             Interval[] intervals = new[] { new Interval(0, 30), new Interval(5, 10), new Interval(15, 20) };
             Console.WriteLine(test.MinMeetingRooms(intervals));
-            Console.ReadKey();
         }
         #endregion
 
@@ -118,7 +120,6 @@ namespace LeetCode_CSharp
             FruitIntoBaskets test = new FruitIntoBaskets();
             int[] tree = new[] { 3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4 };
             Console.WriteLine(test.TotalFruit(tree));
-            Console.ReadKey();
         }
         #endregion
 
@@ -128,7 +129,35 @@ namespace LeetCode_CSharp
             UniqueEmailAddresses test = new UniqueEmailAddresses();
             string[] emails = new[] { "test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com" };
             Console.WriteLine(test.NumUniqueEmails(emails));
-            Console.ReadKey();
+        }
+        #endregion
+
+        #region PerfectSquaresProblem
+        public static void RunPerfectSquareProblem()
+        {
+            PerfectSquares test = new PerfectSquares();
+            Console.WriteLine(test.NumSquares(13));
+        }
+        #endregion
+
+        #region WiggleSortProblem
+        public static void RunWiggleSortProblem()
+        {
+            WiggleSortProblem test = new WiggleSortProblem();
+            int[] nums = { 3, 5, 2, 1, 6, 4 };
+            test.WiggleSort(nums);
+            PrintEnumerable(nums);
+        }
+        #endregion
+
+        #region HelperMethods
+        public static void PrintEnumerable<T>(IEnumerable<T> enumerable)
+        {
+            List<string> strArray = enumerable.Select(value => value.ToString()).ToList();
+            string joined = string.Join(",", strArray);
+            Console.Write("[");
+            Console.Write(joined);
+            Console.Write("]");
         }
         #endregion
     }
