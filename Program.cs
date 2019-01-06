@@ -20,7 +20,9 @@ namespace LeetCode_CSharp
             //RunFruitIntoBasketProblem();
             //RunUniqueEmailAddressesProblem();
             //RunPerfectSquareProblem();
-            RunWiggleSortProblem();
+            //RunWiggleSortProblem();
+            RunBurstBalloons();
+
             Console.ReadKey();
         }
 
@@ -147,6 +149,15 @@ namespace LeetCode_CSharp
             int[] nums = { 3, 5, 2, 1, 6, 4 };
             test.WiggleSort(nums);
             PrintEnumerable(nums);
+        }
+        #endregion
+
+        #region BurstBalloonsProblem
+        public static void RunBurstBalloons()
+        {
+            BurstBalloons test = new BurstBalloons();
+            int[] nums = { 3, 1, 5, 8 };
+            Console.WriteLine(test.MaxCoins(nums));
         }
         #endregion
 

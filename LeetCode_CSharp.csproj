@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicCalculator.cs" />
+    <Compile Include="BurstBalloons.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="MeetingRoomsII.cs" />
