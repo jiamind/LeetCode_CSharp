@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
+    <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="MeetingRoomsII.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
     <Compile Include="EvaluateReversePolishNotation.cs" />
+    <Compile Include="RemoveDuplicateLettersProblem.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
     <Compile Include="PowerOfTwo.cs" />

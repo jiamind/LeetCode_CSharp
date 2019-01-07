@@ -21,7 +21,9 @@ namespace LeetCode_CSharp
             //RunUniqueEmailAddressesProblem();
             //RunPerfectSquareProblem();
             //RunWiggleSortProblem();
-            RunBurstBalloons();
+            //RunBurstBalloons();
+            //RunCountOfSmallerNumbersAfterSelf();
+            RunRemoveDuplicateLettersProblem();
 
             Console.ReadKey();
         }
@@ -158,6 +160,25 @@ namespace LeetCode_CSharp
             BurstBalloons test = new BurstBalloons();
             int[] nums = { 3, 1, 5, 8 };
             Console.WriteLine(test.MaxCoins(nums));
+        }
+        #endregion
+
+        #region CountOfSmallerNumbersAfterSelf
+        public static void RunCountOfSmallerNumbersAfterSelf()
+        {
+            CountOfSmallerNumbersAfterSelf test = new CountOfSmallerNumbersAfterSelf();
+            int[] nums = { 5, 2, 6, 1 };
+            IList<int> result = test.CountSmaller(nums);
+            PrintEnumerable(result);
+        }
+        #endregion
+
+        #region RemoveDuplicateLettersProblem
+        public static void RunRemoveDuplicateLettersProblem()
+        {
+            RemoveDuplicateLettersProblem test = new RemoveDuplicateLettersProblem();
+            string s = "abacb";
+            Console.WriteLine(test.RemoveDuplicateLetters(s));
         }
         #endregion
 
