@@ -25,7 +25,8 @@ namespace LeetCode_CSharp
             //RunCountOfSmallerNumbersAfterSelf();
             //RunRemoveDuplicateLettersProblem();
             //RunPowerOfThree();
-            RunPalindromePairsProblem();
+            //RunPalindromePairsProblem();
+            RunReverseVowelsOfAString();
 
             Console.ReadKey();
         }
@@ -205,6 +206,16 @@ namespace LeetCode_CSharp
                 PrintEnumerable(pair);
                 Console.WriteLine();
             }
+        }
+        #endregion
+
+        #region ReverseVowelsOfAString
+        public static void RunReverseVowelsOfAString()
+        {
+            ReverseVowelsOfAString test = new ReverseVowelsOfAString();
+            string s = "OE";
+            string result = test.ReverseVowels(s);
+            Console.WriteLine(result);
         }
         #endregion
 

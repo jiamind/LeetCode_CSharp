@@ -57,6 +57,7 @@
     <Compile Include="MaxPointsOnALine.cs" />
     <Compile Include="EvaluateReversePolishNotation.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
+    <Compile Include="ReverseVowelsOfAString.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
     <Compile Include="PowerOfTwo.cs" />
