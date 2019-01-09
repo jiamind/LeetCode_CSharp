@@ -23,7 +23,9 @@ namespace LeetCode_CSharp
             //RunWiggleSortProblem();
             //RunBurstBalloons();
             //RunCountOfSmallerNumbersAfterSelf();
-            RunRemoveDuplicateLettersProblem();
+            //RunRemoveDuplicateLettersProblem();
+            //RunPowerOfThree();
+            RunPalindromePairsProblem();
 
             Console.ReadKey();
         }
@@ -179,6 +181,30 @@ namespace LeetCode_CSharp
             RemoveDuplicateLettersProblem test = new RemoveDuplicateLettersProblem();
             string s = "abacb";
             Console.WriteLine(test.RemoveDuplicateLetters(s));
+        }
+        #endregion
+
+        #region PowerOfThree
+        public static void RunPowerOfThree()
+        {
+            PowerOfThree test = new PowerOfThree();
+            int n = 45;
+            Console.WriteLine(test.IsPowerOfThree(n));
+        }
+        #endregion
+
+        #region PalindromePairs
+        public static void RunPalindromePairsProblem()
+        {
+            PalindromePairsProblem test = new PalindromePairsProblem();
+            //string[] s = { "abcd", "dcba", "lls", "s", "sssll" };
+            string[] s = { "a", "b", "c", "ab", "ac", "aa" };
+            IList<IList<int>> result = test.PalindromePairs(s);
+            foreach (IList<int> pair in result)
+            {
+                PrintEnumerable(pair);
+                Console.WriteLine();
+            }
         }
         #endregion
 

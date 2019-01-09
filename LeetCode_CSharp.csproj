@@ -49,7 +49,9 @@
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
+    <Compile Include="PalindromePairsProblem.cs" />
     <Compile Include="PerfectSquares.cs" />
+    <Compile Include="PowerOfThree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
