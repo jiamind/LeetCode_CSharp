@@ -48,6 +48,7 @@
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />
+    <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="PalindromePairsProblem.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
     <Compile Include="EvaluateReversePolishNotation.cs" />
+    <Compile Include="QueueReconstructionByHeight.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
     <Compile Include="ReverseVowelsOfAString.cs" />
     <Compile Include="SummaryRangesProblem.cs" />

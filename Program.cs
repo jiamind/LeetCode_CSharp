@@ -27,7 +27,9 @@ namespace LeetCode_CSharp
             //RunPowerOfThree();
             //RunPalindromePairsProblem();
             //RunReverseVowelsOfAString();
-            RunLongestAbsoluteFilePath();
+            //RunLongestAbsoluteFilePath();
+            //RunQueueReconstructionByHeight();
+            RunMaximumXorOfTwoNumbersInAnArray();
 
             Console.ReadKey();
         }
@@ -229,6 +231,29 @@ namespace LeetCode_CSharp
         }
         #endregion
 
+        #region QueueReconstructionByHeight
+        public static void RunQueueReconstructionByHeight()
+        {
+            QueueReconstructionByHeight test = new QueueReconstructionByHeight();
+            //int[,] input = new int[,] { { 7, 0 }, { 4, 4 }, { 7, 1 }, { 5, 0 }, { 6, 1 }, { 5, 2 } };
+            int[,] input = new int[,] { { 8, 2 }, { 4, 2 }, { 4, 5 }, { 2, 0 }, { 7, 2 }, { 1, 4 }, { 9, 1 }, { 3, 1 }, { 9, 0 }, { 1, 0 } };
+            int[,] result = test.ReconstructQueue(input);
+
+            for (int i = 0; i < result.GetLength(0); i++)
+            {
+                Console.WriteLine("[" + result[i, 0] + "," + result[i, 1] + "]");
+            }
+        }
+        #endregion
+
+        #region MaximumXorOfTwoNumbersInAnArray
+        public static void RunMaximumXorOfTwoNumbersInAnArray()
+        {
+            MaximumXorOfTwoNumbersInAnArray test = new MaximumXorOfTwoNumbersInAnArray();
+            int[] nums = { 3, 10, 5, 25, 2, 8 };
+            Console.WriteLine(test.FindMaximumXOR(nums));
+        }
+        #endregion
         #region HelperMethods
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable)
         {
