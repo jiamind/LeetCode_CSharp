@@ -30,7 +30,8 @@ namespace LeetCode_CSharp
             //RunLongestAbsoluteFilePath();
             //RunQueueReconstructionByHeight();
             //RunMaximumXorOfTwoNumbersInAnArray();
-            RunDecodeStringProblem();
+            //RunDecodeStringProblem();
+            RunAddStringProblem();
 
             Console.ReadKey();
         }
@@ -262,6 +263,16 @@ namespace LeetCode_CSharp
             DecodeStringProblem test = new DecodeStringProblem();
             string input = "2[abc]3[cd]ef";
             Console.WriteLine(test.DecodeString(input));
+        }
+        #endregion
+
+        #region AddStringProblem
+        public static void RunAddStringProblem()
+        {
+            AddStringsProblem test = new AddStringsProblem();
+            string num1 = "999999";
+            string num2 = "99";
+            Console.WriteLine(test.AddStrings(num1, num2));
         }
         #endregion
         #region HelperMethods

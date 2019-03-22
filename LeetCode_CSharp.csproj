@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStringsProblem.cs" />
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
