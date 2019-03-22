@@ -45,6 +45,7 @@
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
+    <Compile Include="DecodeStringProblem.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />

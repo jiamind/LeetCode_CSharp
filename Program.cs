@@ -29,7 +29,8 @@ namespace LeetCode_CSharp
             //RunReverseVowelsOfAString();
             //RunLongestAbsoluteFilePath();
             //RunQueueReconstructionByHeight();
-            RunMaximumXorOfTwoNumbersInAnArray();
+            //RunMaximumXorOfTwoNumbersInAnArray();
+            RunDecodeStringProblem();
 
             Console.ReadKey();
         }
@@ -252,6 +253,15 @@ namespace LeetCode_CSharp
             MaximumXorOfTwoNumbersInAnArray test = new MaximumXorOfTwoNumbersInAnArray();
             int[] nums = { 3, 10, 5, 25, 2, 8 };
             Console.WriteLine(test.FindMaximumXOR(nums));
+        }
+        #endregion
+
+        #region DecodeStringProblem
+        public static void RunDecodeStringProblem()
+        {
+            DecodeStringProblem test = new DecodeStringProblem();
+            string input = "2[abc]3[cd]ef";
+            Console.WriteLine(test.DecodeString(input));
         }
         #endregion
         #region HelperMethods
