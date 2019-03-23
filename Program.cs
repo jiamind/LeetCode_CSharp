@@ -31,7 +31,8 @@ namespace LeetCode_CSharp
             //RunQueueReconstructionByHeight();
             //RunMaximumXorOfTwoNumbersInAnArray();
             //RunDecodeStringProblem();
-            RunAddStringProblem();
+            //RunAddStringProblem();
+            RunFindAllNumbersDisappearedInAnArray();
 
             Console.ReadKey();
         }
@@ -275,6 +276,16 @@ namespace LeetCode_CSharp
             Console.WriteLine(test.AddStrings(num1, num2));
         }
         #endregion
+
+        #region FindAllNumbersDisappearedInAnArray
+        public static void RunFindAllNumbersDisappearedInAnArray()
+        {
+            FindAllNumbersDisappearedInAnArray test = new FindAllNumbersDisappearedInAnArray();
+            int[] input = { 4, 3, 2, 7, 8, 2, 3, 1 };
+            PrintEnumerable(test.FindDisappearedNumbers(input));
+        }
+        #endregion
+
         #region HelperMethods
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable)
         {
