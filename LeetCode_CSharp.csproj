@@ -65,6 +65,7 @@
     <Compile Include="QueueReconstructionByHeight.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
     <Compile Include="ReverseVowelsOfAString.cs" />
+    <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
     <Compile Include="PowerOfTwo.cs" />

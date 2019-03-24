@@ -33,7 +33,8 @@ namespace LeetCode_CSharp
             //RunDecodeStringProblem();
             //RunAddStringProblem();
             //RunFindAllNumbersDisappearedInAnArray();
-            RunIslandPerimeterProblem();
+            //RunIslandPerimeterProblem();
+            RunSubarraySumEqualsK();
 
             Console.ReadKey();
         }
@@ -293,6 +294,16 @@ namespace LeetCode_CSharp
             IslandPerimeterProblem test = new IslandPerimeterProblem();
             int[,] input = { { 0, 1, 0, 0 }, { 1, 1, 1, 0 }, { 0, 1, 0, 0 }, { 1, 1, 0, 0 } };
             Console.WriteLine(test.IslandPerimeter(input));
+        }
+        #endregion
+
+        #region SubarraySumEqualsK
+        public static void RunSubarraySumEqualsK()
+        {
+            SubarraySumEqualsK test = new SubarraySumEqualsK();
+            int[] nums = { 1, 1, 1 };
+            int k = 2;
+            Console.WriteLine(test.SubarraySum(nums, k));
         }
         #endregion
 
