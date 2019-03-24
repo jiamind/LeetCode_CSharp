@@ -49,6 +49,7 @@
     <Compile Include="DecodeStringProblem.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
+    <Compile Include="IslandPerimeterProblem.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />

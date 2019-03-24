@@ -32,7 +32,8 @@ namespace LeetCode_CSharp
             //RunMaximumXorOfTwoNumbersInAnArray();
             //RunDecodeStringProblem();
             //RunAddStringProblem();
-            RunFindAllNumbersDisappearedInAnArray();
+            //RunFindAllNumbersDisappearedInAnArray();
+            RunIslandPerimeterProblem();
 
             Console.ReadKey();
         }
@@ -283,6 +284,15 @@ namespace LeetCode_CSharp
             FindAllNumbersDisappearedInAnArray test = new FindAllNumbersDisappearedInAnArray();
             int[] input = { 4, 3, 2, 7, 8, 2, 3, 1 };
             PrintEnumerable(test.FindDisappearedNumbers(input));
+        }
+        #endregion
+
+        #region IslandPerimeterProblem
+        public static void RunIslandPerimeterProblem()
+        {
+            IslandPerimeterProblem test = new IslandPerimeterProblem();
+            int[,] input = { { 0, 1, 0, 0 }, { 1, 1, 1, 0 }, { 0, 1, 0, 0 }, { 1, 1, 0, 0 } };
+            Console.WriteLine(test.IslandPerimeter(input));
         }
         #endregion
 
