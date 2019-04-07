@@ -34,7 +34,9 @@ namespace LeetCode_CSharp
             //RunAddStringProblem();
             //RunFindAllNumbersDisappearedInAnArray();
             //RunIslandPerimeterProblem();
-            RunSubarraySumEqualsK();
+            //RunSubarraySumEqualsK();
+            //RunRobotReturnToOrigin();
+            RunDailyTemperatures();
 
             Console.ReadKey();
         }
@@ -304,6 +306,24 @@ namespace LeetCode_CSharp
             int[] nums = { 1, 1, 1 };
             int k = 2;
             Console.WriteLine(test.SubarraySum(nums, k));
+        }
+        #endregion
+
+        #region RobotReturnToOrigin
+        public static void RunRobotReturnToOrigin()
+        {
+            RobotReturnToOrigin test = new RobotReturnToOrigin();
+            string input = "LL";
+            Console.WriteLine(test.JudgeCircle(input));
+        }
+        #endregion
+
+        #region DailyTemperaturesProblem
+        public static void RunDailyTemperatures()
+        {
+            DailyTemperaturesProblem test = new DailyTemperaturesProblem();
+            int[] T = { 73, 74, 75, 71, 69, 72, 76, 73 };
+            PrintEnumerable<int>(test.DailyTemperatures(T));
         }
         #endregion
 

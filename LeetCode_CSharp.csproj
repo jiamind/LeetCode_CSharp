@@ -46,6 +46,7 @@
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
+    <Compile Include="DailyTemperaturesProblem.cs" />
     <Compile Include="DecodeStringProblem.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="QueueReconstructionByHeight.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
     <Compile Include="ReverseVowelsOfAString.cs" />
+    <Compile Include="RobotReturnToOrigin.cs" />
     <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
