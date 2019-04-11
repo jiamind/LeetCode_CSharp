@@ -36,7 +36,8 @@ namespace LeetCode_CSharp
             //RunIslandPerimeterProblem();
             //RunSubarraySumEqualsK();
             //RunRobotReturnToOrigin();
-            RunDailyTemperatures();
+            //RunDailyTemperatures();
+            RunOddEvenJump();
 
             Console.ReadKey();
         }
@@ -324,6 +325,15 @@ namespace LeetCode_CSharp
             DailyTemperaturesProblem test = new DailyTemperaturesProblem();
             int[] T = { 73, 74, 75, 71, 69, 72, 76, 73 };
             PrintEnumerable<int>(test.DailyTemperatures(T));
+        }
+        #endregion
+
+        #region OddEvenJump
+        public static void RunOddEvenJump()
+        {
+            OddEvenJump test = new OddEvenJump();
+            int[] A = { 5, 1, 3, 4, 2 };
+            Console.WriteLine(test.OddEvenJumps(A));
         }
         #endregion
 

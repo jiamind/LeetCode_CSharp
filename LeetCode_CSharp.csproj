@@ -56,6 +56,7 @@
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
+    <Compile Include="OddEvenJump.cs" />
     <Compile Include="PalindromePairsProblem.cs" />
     <Compile Include="PerfectSquares.cs" />
     <Compile Include="PowerOfThree.cs" />
