@@ -37,7 +37,8 @@ namespace LeetCode_CSharp
             //RunSubarraySumEqualsK();
             //RunRobotReturnToOrigin();
             //RunDailyTemperatures();
-            RunOddEvenJump();
+            //RunOddEvenJump();
+            RunMostStonesRemovedWithSameRowOrColumn();
 
             Console.ReadKey();
         }
@@ -334,6 +335,23 @@ namespace LeetCode_CSharp
             OddEvenJump test = new OddEvenJump();
             int[] A = { 5, 1, 3, 4, 2 };
             Console.WriteLine(test.OddEvenJumps(A));
+        }
+        #endregion
+
+        #region MostStonesRemovedWithSameRowOrColumn
+        public static void RunMostStonesRemovedWithSameRowOrColumn()
+        {
+            MostStonesRemovedWithSameRowOrColumn test = new MostStonesRemovedWithSameRowOrColumn();
+            int[][] stones = new int[][]{
+               new int[] {0,0},
+               new int[] {0,1},
+               new int[] {1,0},
+               new int[] {1,2},
+               new int[] {2,1},
+               new int[] {2,2},
+            };
+
+            Console.WriteLine(test.RemoveStones(stones));
         }
         #endregion
 
