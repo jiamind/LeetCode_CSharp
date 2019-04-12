@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddStringsProblem.cs" />
+    <Compile Include="BackspaceStringCompare.cs" />
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />

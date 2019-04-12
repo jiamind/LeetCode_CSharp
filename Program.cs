@@ -38,7 +38,8 @@ namespace LeetCode_CSharp
             //RunRobotReturnToOrigin();
             //RunDailyTemperatures();
             //RunOddEvenJump();
-            RunMostStonesRemovedWithSameRowOrColumn();
+            //RunMostStonesRemovedWithSameRowOrColumn();
+            RunBackspaceStringCompare();
 
             Console.ReadKey();
         }
@@ -352,6 +353,16 @@ namespace LeetCode_CSharp
             };
 
             Console.WriteLine(test.RemoveStones(stones));
+        }
+        #endregion
+
+        #region BackspaceStringCompare
+
+        public static void RunBackspaceStringCompare()
+        {
+            BackspaceStringCompare test = new BackspaceStringCompare();
+            string S = "ab#c##", T = "ad#c##";
+            Console.WriteLine(test.BackspaceCompare(S, T));
         }
         #endregion
 
