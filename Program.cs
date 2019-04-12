@@ -39,7 +39,8 @@ namespace LeetCode_CSharp
             //RunDailyTemperatures();
             //RunOddEvenJump();
             //RunMostStonesRemovedWithSameRowOrColumn();
-            RunBackspaceStringCompare();
+            //RunBackspaceStringCompare();
+            RunEvaluateDivision();
 
             Console.ReadKey();
         }
@@ -353,6 +354,29 @@ namespace LeetCode_CSharp
             };
 
             Console.WriteLine(test.RemoveStones(stones));
+        }
+        #endregion
+
+        #region EvaluateDivision
+        public static void RunEvaluateDivision()
+        {
+            EvaluateDivision test = new EvaluateDivision();
+            string[][] equations = new string[][]
+            {
+                new string[] { "a", "b" },
+                new string[] { "b", "c" }
+            };
+            double[] values = { 2.0, 3.0 };
+            string[][] queries = new string[][]
+            {
+                new string[] { "a", "c" },
+                new string[] { "b", "a" },
+                new string[] { "a", "e" },
+                new string[] { "a", "a" },
+                new string[] { "x", "x" }
+            };
+
+            PrintEnumerable<double>(test.CalcEquation(equations, values, queries));
         }
         #endregion
 

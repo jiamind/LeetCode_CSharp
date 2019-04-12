@@ -49,6 +49,7 @@
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
     <Compile Include="DailyTemperaturesProblem.cs" />
     <Compile Include="DecodeStringProblem.cs" />
+    <Compile Include="EvaluateDivision.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="IslandPerimeterProblem.cs" />
