@@ -78,6 +78,7 @@
     <Compile Include="SearchA2DMatrixII.cs" />
     <Compile Include="UniqueEmailAddresses.cs" />
     <Compile Include="WiggleSortProblem.cs" />
+    <Compile Include="CountCompleteTreeNodes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
