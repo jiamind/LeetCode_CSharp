@@ -42,7 +42,8 @@ namespace LeetCode_CSharp
             //RunMostStonesRemovedWithSameRowOrColumn();
             //RunBackspaceStringCompare();
             //RunEvaluateDivision();
-            RunCountCompleteTreeNodes();
+            //RunCountCompleteTreeNodes();
+            RunCrackingTheSafe();
 
             Console.ReadKey();
         }
@@ -409,6 +410,14 @@ namespace LeetCode_CSharp
             node3.left = node6;
 
             Console.WriteLine(test.CountNodes(root));
+        }
+        #endregion
+
+        #region CrackingTheSafe
+        public static void RunCrackingTheSafe()
+        {
+            CrackingTheSafe test = new CrackingTheSafe();
+            Console.WriteLine(test.CrackSafe(2, 2));
         }
         #endregion
 

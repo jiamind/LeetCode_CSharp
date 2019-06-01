@@ -47,6 +47,7 @@
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
+    <Compile Include="CrackingTheSafe.cs" />
     <Compile Include="DailyTemperaturesProblem.cs" />
     <Compile Include="DecodeStringProblem.cs" />
     <Compile Include="EvaluateDivision.cs" />
