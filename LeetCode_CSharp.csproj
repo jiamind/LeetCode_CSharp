@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAndSearchWord.cs" />
     <Compile Include="AddStringsProblem.cs" />
+    <Compile Include="AlienDictionary.cs" />
     <Compile Include="BackspaceStringCompare.cs" />
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BurstBalloons.cs" />

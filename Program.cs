@@ -43,7 +43,9 @@ namespace LeetCode_CSharp
             //RunBackspaceStringCompare();
             //RunEvaluateDivision();
             //RunCountCompleteTreeNodes();
-            RunCrackingTheSafe();
+            //RunCrackingTheSafe();
+            //RunAddAndSearchWord();
+            RunAlienDictionary();
 
             Console.ReadKey();
         }
@@ -418,6 +420,28 @@ namespace LeetCode_CSharp
         {
             CrackingTheSafe test = new CrackingTheSafe();
             Console.WriteLine(test.CrackSafe(2, 2));
+        }
+        #endregion
+
+        #region AddAndSearchWord
+        public static void RunAddAndSearchWord()
+        {
+            WordDictionary test = new WordDictionary();
+            test.AddWord("bad");
+            test.AddWord("dad");
+            Console.WriteLine(test.Search("mad"));
+            Console.WriteLine(test.Search("pad"));
+            Console.WriteLine(test.Search(".ad"));
+            Console.WriteLine(test.Search("b.."));
+        }
+        #endregion
+
+        #region AlienDictionary
+        public static void RunAlienDictionary()
+        {
+            AlienDictionary test = new AlienDictionary();
+            string[] words = { "wrt", "wrf", "er", "ett", "rftt" };
+            Console.WriteLine(test.AlienOrder(words));
         }
         #endregion
 
