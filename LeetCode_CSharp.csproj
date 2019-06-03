@@ -83,6 +83,7 @@
     <Compile Include="WiggleSortProblem.cs" />
     <Compile Include="CountCompleteTreeNodes.cs" />
     <Compile Include="GuessTheWord.cs" />
+    <Compile Include="BinarySearchTreeIterator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
