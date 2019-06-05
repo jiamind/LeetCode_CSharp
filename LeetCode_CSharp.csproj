@@ -50,6 +50,7 @@
     <Compile Include="BinaryTreeVerticalOrderTraversal.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="ClosestBinarySearchTreeValue.cs" />
+    <Compile Include="ClosestBinarySearchTreeValueII.cs" />
     <Compile Include="CountOfSmallerNumbersAfterSelf.cs" />
     <Compile Include="CrackingTheSafe.cs" />
     <Compile Include="DailyTemperaturesProblem.cs" />
