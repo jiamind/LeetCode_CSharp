@@ -45,7 +45,8 @@ namespace LeetCode_CSharp
             //RunCountCompleteTreeNodes();
             //RunCrackingTheSafe();
             //RunAddAndSearchWord();
-            RunAlienDictionary();
+            //RunAlienDictionary();
+            RunContiguousArray();
 
             Console.ReadKey();
         }
@@ -442,6 +443,15 @@ namespace LeetCode_CSharp
             AlienDictionary test = new AlienDictionary();
             string[] words = { "wrt", "wrf", "er", "ett", "rftt" };
             Console.WriteLine(test.AlienOrder(words));
+        }
+        #endregion
+
+        #region ContiguousArray
+        public static void RunContiguousArray()
+        {
+            ContiguousArray test = new ContiguousArray();
+            int[] input = { 0, 1 };
+            Console.WriteLine(test.FindMaxLength(input));
         }
         #endregion
 
