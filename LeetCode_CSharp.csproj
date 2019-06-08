@@ -58,6 +58,9 @@
     <Compile Include="CrackingTheSafe.cs" />
     <Compile Include="DailyTemperaturesProblem.cs" />
     <Compile Include="DecodeStringProblem.cs" />
+    <Compile Include="DesignTicTacToe.cs" />
+    <Compile Include="DistinctSubsequences.cs" />
+    <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="EvaluateDivision.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
