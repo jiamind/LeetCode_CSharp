@@ -65,6 +65,7 @@
     <Compile Include="EditDistance.cs" />
     <Compile Include="EvaluateDivision.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
+    <Compile Include="FindTheCelebrity.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="IslandPerimeterProblem.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
