@@ -61,6 +61,7 @@
     <Compile Include="DesignTicTacToe.cs" />
     <Compile Include="DistinctSubsequences.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
+    <Compile Include="DungeonGame.cs" />
     <Compile Include="EditDistance.cs" />
     <Compile Include="EvaluateDivision.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
