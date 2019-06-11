@@ -64,6 +64,7 @@
     <Compile Include="DungeonGame.cs" />
     <Compile Include="EditDistance.cs" />
     <Compile Include="EvaluateDivision.cs" />
+    <Compile Include="ExpressionAddOperators.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FindTheCelebrity.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
