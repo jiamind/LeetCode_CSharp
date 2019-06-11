@@ -46,7 +46,8 @@ namespace LeetCode_CSharp
             //RunCrackingTheSafe();
             //RunAddAndSearchWord();
             //RunAlienDictionary();
-            RunContiguousArray();
+            //RunContiguousArray();
+            RunHIndexProblem();
 
             Console.ReadKey();
         }
@@ -452,6 +453,15 @@ namespace LeetCode_CSharp
             ContiguousArray test = new ContiguousArray();
             int[] input = { 0, 1 };
             Console.WriteLine(test.FindMaxLength(input));
+        }
+        #endregion
+
+        #region HIndexProblem
+        public static void RunHIndexProblem()
+        {
+            HIndexProblem test = new HIndexProblem();
+            int[] citations = { 1, 2, 3, 4, 5, 6 };
+            Console.WriteLine(test.HIndex2(citations));
         }
         #endregion
 
