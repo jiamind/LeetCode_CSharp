@@ -71,6 +71,7 @@
     <Compile Include="GraphValidTree.cs" />
     <Compile Include="HIndexProblem.cs" />
     <Compile Include="HouseRobberIII.cs" />
+    <Compile Include="InOrderSuccessorInBST.cs" />
     <Compile Include="IslandPerimeterProblem.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />
