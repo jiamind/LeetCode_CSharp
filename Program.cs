@@ -4,7 +4,6 @@ using System.Collections.Generic;
 namespace LeetCode_CSharp
 {
     using System.Linq;
-    using global::CountCompleteTreeNodes;
 
     public class Program
     {
@@ -47,7 +46,8 @@ namespace LeetCode_CSharp
             //RunAddAndSearchWord();
             //RunAlienDictionary();
             //RunContiguousArray();
-            RunHIndexProblem();
+            //RunHIndexProblem();
+            RunInsertionSortListProblem();
 
             Console.ReadKey();
         }
@@ -400,12 +400,12 @@ namespace LeetCode_CSharp
         public static void RunCountCompleteTreeNodes()
         {
             CountCompleteTreeNodes test = new CountCompleteTreeNodes();
-            TreeNode root = new TreeNode(1);
-            TreeNode node2 = new TreeNode(2);
-            TreeNode node3 = new TreeNode(3);
-            TreeNode node4 = new TreeNode(4);
-            TreeNode node5 = new TreeNode(5);
-            TreeNode node6 = new TreeNode(6);
+            CountCompleteTreeNodes_NS.TreeNode root = new CountCompleteTreeNodes_NS.TreeNode(1);
+            CountCompleteTreeNodes_NS.TreeNode node2 = new CountCompleteTreeNodes_NS.TreeNode(2);
+            CountCompleteTreeNodes_NS.TreeNode node3 = new CountCompleteTreeNodes_NS.TreeNode(3);
+            CountCompleteTreeNodes_NS.TreeNode node4 = new CountCompleteTreeNodes_NS.TreeNode(4);
+            CountCompleteTreeNodes_NS.TreeNode node5 = new CountCompleteTreeNodes_NS.TreeNode(5);
+            CountCompleteTreeNodes_NS.TreeNode node6 = new CountCompleteTreeNodes_NS.TreeNode(6);
 
             root.left = node2;
             root.right = node3;
@@ -461,7 +461,32 @@ namespace LeetCode_CSharp
         {
             HIndexProblem test = new HIndexProblem();
             int[] citations = { 1, 2, 3, 4, 5, 6 };
-            Console.WriteLine(test.HIndex2(citations));
+            Console.WriteLine(test.HIndex(citations));
+        }
+        #endregion
+
+        #region InsertionSortListProblem
+        public static void RunInsertionSortListProblem()
+        {
+            InsertionSortListProblem test = new InsertionSortListProblem();
+            InsertionSortList_NS.ListNode node1 = new InsertionSortList_NS.ListNode(1);
+            InsertionSortList_NS.ListNode node2 = new InsertionSortList_NS.ListNode(2);
+            InsertionSortList_NS.ListNode node3 = new InsertionSortList_NS.ListNode(3);
+            InsertionSortList_NS.ListNode node4 = new InsertionSortList_NS.ListNode(4);
+            InsertionSortList_NS.ListNode node5 = new InsertionSortList_NS.ListNode(5);
+
+            //node1.next = node3;
+            node2.next = node4;
+            node3.next = node2;
+            //node4.next = node2;
+
+            InsertionSortList_NS.ListNode node = test.InsertionSortList(node3);
+            InsertionSortList_NS.ListNode temp = node;
+            while (temp != null)
+            {
+                Console.Write(temp.val + " ");
+                temp = temp.next;
+            }
         }
         #endregion
 

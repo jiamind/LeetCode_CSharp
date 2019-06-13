@@ -1,7 +1,7 @@
 ﻿using System;
-using CountCompleteTreeNodes;
+using CountCompleteTreeNodes_NS;
 
-namespace CountCompleteTreeNodes
+namespace CountCompleteTreeNodes_NS
 {
     public class TreeNode
     {
