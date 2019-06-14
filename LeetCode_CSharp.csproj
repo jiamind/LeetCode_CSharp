@@ -67,6 +67,7 @@
     <Compile Include="ExpressionAddOperators.cs" />
     <Compile Include="FindAllNumbersDisappearedInAnArray.cs" />
     <Compile Include="FindTheCelebrity.cs" />
+    <Compile Include="FlattenBinaryTreeToLinkedList.cs" />
     <Compile Include="FruitIntoBaskets.cs" />
     <Compile Include="GraphValidTree.cs" />
     <Compile Include="HIndexProblem.cs" />

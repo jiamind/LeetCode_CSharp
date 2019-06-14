@@ -456,6 +456,37 @@ namespace LeetCode_CSharp
         }
         #endregion
 
+        #region FlattenBinaryTreeToLinkedList
+        public static void RunFlattenBinaryTreeToLinkedList()
+        {
+            FlattenBinaryTreeToLinkedList test = new FlattenBinaryTreeToLinkedList();
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node1 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(1);
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node2 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(2);
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node3 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(3);
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node4 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(4);
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node5 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(5);
+            FlattenBinaryTreeToLinkedList_NS.TreeNode node6 = new FlattenBinaryTreeToLinkedList_NS.TreeNode(6);
+
+            node1.left = node2;
+            node1.right = node5;
+            node2.left = node3;
+            node2.right = node4;
+            node5.right = node6;
+
+            test.Flatten(node1);
+
+            List<int> list = new List<int>();
+            FlattenBinaryTreeToLinkedList_NS.TreeNode n = node1;
+            while (n != null)
+            {
+                list.Add(n.val);
+                n = n.right;
+            }
+
+            PrintEnumerable<int>(list);
+        }
+        #endregion
+
         #region HIndexProblem
         public static void RunHIndexProblem()
         {
