@@ -77,6 +77,7 @@
     <Compile Include="IntegerToEnglishWords.cs" />
     <Compile Include="InterleavingString.cs" />
     <Compile Include="IslandPerimeterProblem.cs" />
+    <Compile Include="JumpGameII.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
