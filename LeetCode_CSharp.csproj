@@ -75,6 +75,7 @@
     <Compile Include="InOrderSuccessorInBST.cs" />
     <Compile Include="InsertionSortListProblem.cs" />
     <Compile Include="IntegerToEnglishWords.cs" />
+    <Compile Include="InterleavingString.cs" />
     <Compile Include="IslandPerimeterProblem.cs" />
     <Compile Include="LargestRectangleInHistogram.cs" />
     <Compile Include="LongestAbsoluteFilePath.cs" />
