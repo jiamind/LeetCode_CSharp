@@ -47,7 +47,8 @@ namespace LeetCode_CSharp
             //RunAlienDictionary();
             //RunContiguousArray();
             //RunHIndexProblem();
-            RunInsertionSortListProblem();
+            //RunInsertionSortListProblem();
+            RunIntegerToEnglishWords();
 
             Console.ReadKey();
         }
@@ -518,6 +519,15 @@ namespace LeetCode_CSharp
                 Console.Write(temp.val + " ");
                 temp = temp.next;
             }
+        }
+        #endregion
+
+        #region IntegerToEnglishWords
+        public static void RunIntegerToEnglishWords()
+        {
+            IntegerToEnglishWords test = new IntegerToEnglishWords();
+            int num = 500;
+            Console.WriteLine(test.NumberToWords(num));
         }
         #endregion
 
