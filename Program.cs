@@ -48,7 +48,8 @@ namespace LeetCode_CSharp
             //RunContiguousArray();
             //RunHIndexProblem();
             //RunInsertionSortListProblem();
-            RunIntegerToEnglishWords();
+            //RunIntegerToEnglishWords();
+            RunLFUCache();
 
             Console.ReadKey();
         }
@@ -528,6 +529,23 @@ namespace LeetCode_CSharp
             IntegerToEnglishWords test = new IntegerToEnglishWords();
             int num = 500;
             Console.WriteLine(test.NumberToWords(num));
+        }
+        #endregion
+
+        #region LFUCache
+        public static void RunLFUCache()
+        {
+            LFUCache test = new LFUCache(2);
+            test.Put(1, 1);
+            test.Put(2, 2);
+            Console.WriteLine(test.Get(1));
+            test.Put(3, 3);
+            Console.WriteLine(test.Get(2));
+            Console.WriteLine(test.Get(3));
+            test.Put(4, 4);
+            Console.WriteLine(test.Get(1));
+            Console.WriteLine(test.Get(3));
+            Console.WriteLine(test.Get(4));
         }
         #endregion
 
