@@ -49,7 +49,8 @@ namespace LeetCode_CSharp
             //RunHIndexProblem();
             //RunInsertionSortListProblem();
             //RunIntegerToEnglishWords();
-            RunLFUCache();
+            //RunLFUCache();
+            RunLongestIncreasingSubsequence();
 
             Console.ReadKey();
         }
@@ -546,6 +547,15 @@ namespace LeetCode_CSharp
             Console.WriteLine(test.Get(1));
             Console.WriteLine(test.Get(3));
             Console.WriteLine(test.Get(4));
+        }
+        #endregion
+
+        #region RunLongestIncreasingSubsequence
+        public static void RunLongestIncreasingSubsequence()
+        {
+            LongestIncresingSubsequence test = new LongestIncresingSubsequence();
+            int[] nums = new int[] { 0, 8, 4, 12, 2 };
+            Console.WriteLine(test.LengthOfLIS(nums));
         }
         #endregion
 
