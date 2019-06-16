@@ -84,6 +84,7 @@
     <Compile Include="LongestAbsoluteFilePath.cs" />
     <Compile Include="LongestIncresingSubsequence.cs" />
     <Compile Include="LongestPalindromicSubsequence.cs" />
+    <Compile Include="LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />

@@ -51,7 +51,8 @@ namespace LeetCode_CSharp
             //RunIntegerToEnglishWords();
             //RunLFUCache();
             //RunLongestIncreasingSubsequence();
-            RunLongestPalindromicSubsequence();
+            //RunLongestPalindromicSubsequence();
+            RunLongestSubstringWithoutRepeatingCharacters();
 
             Console.ReadKey();
         }
@@ -566,6 +567,14 @@ namespace LeetCode_CSharp
             LongestPalindromicSubsequence test = new LongestPalindromicSubsequence();
             string s = "bbbab";
             Console.WriteLine(test.LongestPalindromeSubseq(s));
+        }
+        #endregion
+
+        #region RunLongestSubstringWithoutRepeatingCharacters
+        public static void RunLongestSubstringWithoutRepeatingCharacters()
+        {
+            LongestSubstringWithoutRepeatingCharacters test = new LongestSubstringWithoutRepeatingCharacters();
+            Console.WriteLine(test.LengthOfLongestSubstring("abba"));
         }
         #endregion
 
