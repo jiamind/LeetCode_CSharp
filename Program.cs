@@ -53,7 +53,8 @@ namespace LeetCode_CSharp
             //RunLongestIncreasingSubsequence();
             //RunLongestPalindromicSubsequence();
             //RunLongestSubstringWithoutRepeatingCharacters();
-            RunLongestValidParenthesesProblem();
+            //RunLongestValidParenthesesProblem();
+            RunMaximalRectange();
 
             Console.ReadKey();
         }
@@ -553,7 +554,7 @@ namespace LeetCode_CSharp
         }
         #endregion
 
-        #region RunLongestIncreasingSubsequence
+        #region LongestIncreasingSubsequence
         public static void RunLongestIncreasingSubsequence()
         {
             LongestIncresingSubsequence test = new LongestIncresingSubsequence();
@@ -562,7 +563,7 @@ namespace LeetCode_CSharp
         }
         #endregion
 
-        #region RunLongestPalindromicSubsequence
+        #region LongestPalindromicSubsequence
         public static void RunLongestPalindromicSubsequence()
         {
             LongestPalindromicSubsequence test = new LongestPalindromicSubsequence();
@@ -571,7 +572,7 @@ namespace LeetCode_CSharp
         }
         #endregion
 
-        #region RunLongestSubstringWithoutRepeatingCharacters
+        #region LongestSubstringWithoutRepeatingCharacters
         public static void RunLongestSubstringWithoutRepeatingCharacters()
         {
             LongestSubstringWithoutRepeatingCharacters test = new LongestSubstringWithoutRepeatingCharacters();
@@ -579,11 +580,28 @@ namespace LeetCode_CSharp
         }
         #endregion
 
-        #region RunLongestValidParenthesesProblem
+        #region LongestValidParenthesesProblem
         public static void RunLongestValidParenthesesProblem()
         {
             LongestValidParenthesesProblem test = new LongestValidParenthesesProblem();
             Console.WriteLine(test.LongestValidParentheses("(()()(()()()"));
+        }
+        #endregion
+
+        #region MaximalRectangle
+        public static void RunMaximalRectange()
+        {
+            char[][] matrix = new char[][]
+            {
+                new char[] { '1', '0', '1', '0', '0' },
+                new char[] { '1', '0', '1', '1', '1' },
+                new char[] { '1', '1', '1', '1', '1' },
+                new char[] { '1', '0', '0', '1', '0' }
+            };
+
+            MaximalRectangleProblem test = new MaximalRectangleProblem();
+
+            Console.WriteLine(test.MaximalRectangle(matrix));
         }
         #endregion
 
