@@ -87,6 +87,7 @@
     <Compile Include="LongestSubstringWithoutRepeatingCharacters.cs" />
     <Compile Include="LongestValidParenthesesProblem.cs" />
     <Compile Include="MaximalRectangleProblem.cs" />
+    <Compile Include="MaximalSquareProblem.cs" />
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
