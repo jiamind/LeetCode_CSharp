@@ -52,7 +52,8 @@ namespace LeetCode_CSharp
             //RunLFUCache();
             //RunLongestIncreasingSubsequence();
             //RunLongestPalindromicSubsequence();
-            RunLongestSubstringWithoutRepeatingCharacters();
+            //RunLongestSubstringWithoutRepeatingCharacters();
+            RunLongestValidParenthesesProblem();
 
             Console.ReadKey();
         }
@@ -575,6 +576,14 @@ namespace LeetCode_CSharp
         {
             LongestSubstringWithoutRepeatingCharacters test = new LongestSubstringWithoutRepeatingCharacters();
             Console.WriteLine(test.LengthOfLongestSubstring("abba"));
+        }
+        #endregion
+
+        #region RunLongestValidParenthesesProblem
+        public static void RunLongestValidParenthesesProblem()
+        {
+            LongestValidParenthesesProblem test = new LongestValidParenthesesProblem();
+            Console.WriteLine(test.LongestValidParentheses("(()()(()()()"));
         }
         #endregion
 
