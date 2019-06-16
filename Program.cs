@@ -50,7 +50,8 @@ namespace LeetCode_CSharp
             //RunInsertionSortListProblem();
             //RunIntegerToEnglishWords();
             //RunLFUCache();
-            RunLongestIncreasingSubsequence();
+            //RunLongestIncreasingSubsequence();
+            RunLongestPalindromicSubsequence();
 
             Console.ReadKey();
         }
@@ -556,6 +557,15 @@ namespace LeetCode_CSharp
             LongestIncresingSubsequence test = new LongestIncresingSubsequence();
             int[] nums = new int[] { 0, 8, 4, 12, 2 };
             Console.WriteLine(test.LengthOfLIS(nums));
+        }
+        #endregion
+
+        #region RunLongestPalindromicSubsequence
+        public static void RunLongestPalindromicSubsequence()
+        {
+            LongestPalindromicSubsequence test = new LongestPalindromicSubsequence();
+            string s = "bbbab";
+            Console.WriteLine(test.LongestPalindromeSubseq(s));
         }
         #endregion
 
