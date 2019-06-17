@@ -89,6 +89,7 @@
     <Compile Include="MaximalRectangleProblem.cs" />
     <Compile Include="MaximalSquareProblem.cs" />
     <Compile Include="MaximumXorOfTwoNumbersInAnArray.cs" />
+    <Compile Include="MeetingRooms.cs" />
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MostStonesRemovedWithSameRowOrColumn.cs" />
