@@ -54,7 +54,8 @@ namespace LeetCode_CSharp
             //RunLongestPalindromicSubsequence();
             //RunLongestSubstringWithoutRepeatingCharacters();
             //RunLongestValidParenthesesProblem();
-            RunMaximalRectange();
+            //RunMaximalRectange();
+            RunMinimumWindowSubstring();
 
             Console.ReadKey();
         }
@@ -602,6 +603,16 @@ namespace LeetCode_CSharp
             MaximalRectangleProblem test = new MaximalRectangleProblem();
 
             Console.WriteLine(test.MaximalRectangle(matrix));
+        }
+        #endregion
+
+        #region MinimumWindowSubstring
+        public static void RunMinimumWindowSubstring()
+        {
+            MinimumWindowSubstring test = new MinimumWindowSubstring();
+            string s = "acbbaca";
+            string t = "aba";
+            Console.WriteLine(test.MinWindow(s, t));
         }
         #endregion
 
