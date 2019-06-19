@@ -112,6 +112,7 @@
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="SearchA2DMatrixII.cs" />
     <Compile Include="UniqueEmailAddresses.cs" />
+    <Compile Include="VerifyAnAlienDictionary.cs" />
     <Compile Include="WiggleSortProblem.cs" />
     <Compile Include="CountCompleteTreeNodes.cs" />
     <Compile Include="GuessTheWord.cs" />

@@ -56,7 +56,8 @@ namespace LeetCode_CSharp
             //RunLongestValidParenthesesProblem();
             //RunMaximalRectange();
             //RunMinimumWindowSubstring();
-            RunNQeens();
+            //RunNQeens();
+            RunVerifyAnAlienDictionary();
 
             Console.ReadKey();
         }
@@ -622,6 +623,16 @@ namespace LeetCode_CSharp
         {
             NQeens test = new NQeens();
             test.SolveNQueens(4);
+        }
+        #endregion
+
+        #region VerifyAnAlienDictionary
+        public static void RunVerifyAnAlienDictionary()
+        {
+            VerifyAnAlienDictionary test = new VerifyAnAlienDictionary();
+            string[] words = new string[] { "apple", "app" };
+            string order = "abcdefghijklmnopqrstuvwxyz";
+            Console.WriteLine(test.IsAlienSorted(words, order));
         }
         #endregion
 
