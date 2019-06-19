@@ -55,7 +55,8 @@ namespace LeetCode_CSharp
             //RunLongestSubstringWithoutRepeatingCharacters();
             //RunLongestValidParenthesesProblem();
             //RunMaximalRectange();
-            RunMinimumWindowSubstring();
+            //RunMinimumWindowSubstring();
+            RunNQeens();
 
             Console.ReadKey();
         }
@@ -613,6 +614,14 @@ namespace LeetCode_CSharp
             string s = "acbbaca";
             string t = "aba";
             Console.WriteLine(test.MinWindow(s, t));
+        }
+        #endregion
+
+        #region NQeens
+        public static void RunNQeens()
+        {
+            NQeens test = new NQeens();
+            test.SolveNQueens(4);
         }
         #endregion
 

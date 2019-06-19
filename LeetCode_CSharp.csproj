@@ -116,6 +116,7 @@
     <Compile Include="CountCompleteTreeNodes.cs" />
     <Compile Include="GuessTheWord.cs" />
     <Compile Include="BinarySearchTreeIterator.cs" />
+    <Compile Include="NQeens.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
