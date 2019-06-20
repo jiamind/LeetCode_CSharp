@@ -94,6 +94,7 @@
     <Compile Include="MinimumWindowSubstring.cs" />
     <Compile Include="MinStack.cs" />
     <Compile Include="MostStonesRemovedWithSameRowOrColumn.cs" />
+    <Compile Include="NumberOfIslands.cs" />
     <Compile Include="OddEvenJump.cs" />
     <Compile Include="PalindromePairsProblem.cs" />
     <Compile Include="PerfectSquares.cs" />
