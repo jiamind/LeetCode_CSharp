@@ -97,6 +97,7 @@
     <Compile Include="NumberOfIslands.cs" />
     <Compile Include="OddEvenJump.cs" />
     <Compile Include="OneEditDistance.cs" />
+    <Compile Include="PaintHouse.cs" />
     <Compile Include="PalindromePairsProblem.cs" />
     <Compile Include="PerfectSquares.cs" />
     <Compile Include="PowerOfThree.cs" />
