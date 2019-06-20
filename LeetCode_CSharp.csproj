@@ -96,6 +96,7 @@
     <Compile Include="MostStonesRemovedWithSameRowOrColumn.cs" />
     <Compile Include="NumberOfIslands.cs" />
     <Compile Include="OddEvenJump.cs" />
+    <Compile Include="OneEditDistance.cs" />
     <Compile Include="PalindromePairsProblem.cs" />
     <Compile Include="PerfectSquares.cs" />
     <Compile Include="PowerOfThree.cs" />
