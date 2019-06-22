@@ -57,7 +57,8 @@ namespace LeetCode_CSharp
             //RunMaximalRectange();
             //RunMinimumWindowSubstring();
             //RunNQeens();
-            RunVerifyAnAlienDictionary();
+            //RunVerifyAnAlienDictionakry();
+            RunKClosestPointsToOrigin();
 
             Console.ReadKey();
         }
@@ -633,6 +634,20 @@ namespace LeetCode_CSharp
             string[] words = new string[] { "apple", "app" };
             string order = "abcdefghijklmnopqrstuvwxyz";
             Console.WriteLine(test.IsAlienSorted(words, order));
+        }
+        #endregion
+
+        #region KClosestPointsToOrigin
+        public static void RunKClosestPointsToOrigin()
+        {
+            KClosestPointsToOrigin test = new KClosestPointsToOrigin();
+            int[][] points = new int[2][]
+            {
+                new int[] {1,3},
+                new int[] {-2,2}
+            };
+
+            test.KClosest(points, 1);
         }
         #endregion
 

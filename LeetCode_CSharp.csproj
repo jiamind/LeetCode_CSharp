@@ -49,6 +49,7 @@
     <Compile Include="BasicCalculator.cs" />
     <Compile Include="BinaryTreeVerticalOrderTraversal.cs" />
     <Compile Include="BurstBalloons.cs" />
+    <Compile Include="KClosestPointsToOrigin.cs" />
     <Compile Include="LargestBSTSubtreeProblem.cs" />
     <Compile Include="LFUCache.cs" />
     <Compile Include="ClosestBinarySearchTreeValue.cs" />
