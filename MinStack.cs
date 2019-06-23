@@ -1,4 +1,6 @@
-﻿namespace LeetCode_CSharp
+﻿using MinStack_NS;
+
+namespace MinStack_NS
 {
     public class Node
     {
@@ -31,7 +33,10 @@
         /// </summary>
         internal Node PrevMinNode { get; set; }
     }
+}
 
+namespace LeetCode_CSharp
+{
     /// <summary>
     /// Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
     /// push(x) -- Push element x onto stack.
