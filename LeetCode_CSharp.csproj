@@ -108,9 +108,11 @@
     <Compile Include="MaxPointsOnALine.cs" />
     <Compile Include="EvaluateReversePolishNotation.cs" />
     <Compile Include="QueueReconstructionByHeight.cs" />
+    <Compile Include="ReadNCharactersGivenRead4II.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
     <Compile Include="ReverseVowelsOfAString.cs" />
     <Compile Include="RobotReturnToOrigin.cs" />
+    <Compile Include="ShortestDistanceFromAllBuildings.cs" />
     <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />

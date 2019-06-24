@@ -58,7 +58,8 @@ namespace LeetCode_CSharp
             //RunMinimumWindowSubstring();
             //RunNQeens();
             //RunVerifyAnAlienDictionakry();
-            RunKClosestPointsToOrigin();
+            //RunKClosestPointsToOrigin();
+            RunShortestDistanceFromAllBuildings();
 
             Console.ReadKey();
         }
@@ -648,6 +649,21 @@ namespace LeetCode_CSharp
             };
 
             test.KClosest(points, 1);
+        }
+        #endregion
+
+        #region ShortestDistanceFromAllBuildings
+        public static void RunShortestDistanceFromAllBuildings()
+        {
+            ShortestDistanceFromAllBuildings test = new ShortestDistanceFromAllBuildings();
+            int[][] grid = new int[3][]
+            {
+                new int[5] { 1,0,2,0,1},
+                new int[5] {0,0,0,0,0},
+                new int[5] { 0,0,1,0,0}
+            };
+
+            Console.WriteLine(test.ShortestDistance(grid));
         }
         #endregion
 
