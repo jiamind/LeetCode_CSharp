@@ -59,7 +59,8 @@ namespace LeetCode_CSharp
             //RunNQeens();
             //RunVerifyAnAlienDictionakry();
             //RunKClosestPointsToOrigin();
-            RunShortestDistanceFromAllBuildings();
+            //RunShortestDistanceFromAllBuildings();
+            RunPermutationII();
 
             Console.ReadKey();
         }
@@ -664,6 +665,14 @@ namespace LeetCode_CSharp
             };
 
             Console.WriteLine(test.ShortestDistance(grid));
+        }
+        #endregion
+
+        #region PermutationII
+        public static void RunPermutationII()
+        {
+            PermutationII test = new PermutationII();
+            test.permuteUnique(new int[3] { 1, 1, 2 });
         }
         #endregion
 
