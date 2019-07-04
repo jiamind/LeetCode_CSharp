@@ -47,6 +47,7 @@
     <Compile Include="AlienDictionary.cs" />
     <Compile Include="BackspaceStringCompare.cs" />
     <Compile Include="BasicCalculator.cs" />
+    <Compile Include="BestTimetoBuyandSellStockIV.cs" />
     <Compile Include="BinaryTreeVerticalOrderTraversal.cs" />
     <Compile Include="BurstBalloons.cs" />
     <Compile Include="KClosestPointsToOrigin.cs" />
