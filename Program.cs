@@ -60,7 +60,8 @@ namespace LeetCode_CSharp
             //RunVerifyAnAlienDictionakry();
             //RunKClosestPointsToOrigin();
             //RunShortestDistanceFromAllBuildings();
-            RunPermutationII();
+            //RunPermutationII();
+            RunAccountMerge();
 
             Console.ReadKey();
         }
@@ -673,6 +674,37 @@ namespace LeetCode_CSharp
         {
             PermutationII test = new PermutationII();
             test.permuteUnique(new int[3] { 1, 1, 2 });
+        }
+        #endregion
+
+        #region AccountMerge
+        public static void RunAccountMerge()
+        {
+            AccountMerge test = new AccountMerge();
+            List<IList<string>> input = new List<IList<string>>()
+            {
+                new List<string>() { "Lily","Lily4@m.co","Lily5@m.co"},
+                new List<string>() { "Lily","Lily8@m.co","Lily9@m.co"},
+                new List<string>() { "Lily","Lily15@m.co","Lily16@m.co"},
+                new List<string>() { "Lily","Lily19@m.co","Lily20@m.co"},
+                new List<string>() { "Lily","Lily6@m.co","Lily7@m.co"},
+                new List<string>() { "Lily","Lily10@m.co","Lily11@m.co"},
+                new List<string>() { "Lily","Lily5@m.co","Lily6@m.co"},
+                new List<string>() { "Lily","Lily13@m.co","Lily14@m.co"},
+                new List<string>() { "Lily","Lily9@m.co","Lily10@m.co"},
+                new List<string>() { "Lily","Lily1@m.co","Lily2@m.co"},
+                new List<string>() { "Lily","Lily3@m.co","Lily4@m.co"},
+                new List<string>() { "Lily","Lily2@m.co","Lily3@m.co"},
+                new List<string>() { "Lily","Lily11@m.co","Lily12@m.co"},
+                new List<string>() { "Lily","Lily7@m.co","Lily8@m.co"},
+                new List<string>() { "Lily","Lily12@m.co","Lily13@m.co"},
+                new List<string>() { "Lily","Lily18@m.co","Lily19@m.co"},
+                new List<string>() { "Lily","Lily17@m.co","Lily18@m.co"},
+                new List<string>() { "Lily","Lily16@m.co","Lily17@m.co"},
+                new List<string>() { "Lily","Lily14@m.co","Lily15@m.co"},
+                new List<string>() { "Lily","Lily0@m.co","Lily1@m.co"}
+            };
+            test.AccountsMerge(input);
         }
         #endregion
 
