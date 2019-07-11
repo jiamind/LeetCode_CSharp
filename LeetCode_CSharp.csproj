@@ -113,6 +113,7 @@
     <Compile Include="QueueReconstructionByHeight.cs" />
     <Compile Include="ReadNCharactersGivenRead4II.cs" />
     <Compile Include="RemoveDuplicateLettersProblem.cs" />
+    <Compile Include="ReorderLogFilesProblem.cs" />
     <Compile Include="ReverseVowelsOfAString.cs" />
     <Compile Include="RobotReturnToOrigin.cs" />
     <Compile Include="ShortestDistanceFromAllBuildings.cs" />
