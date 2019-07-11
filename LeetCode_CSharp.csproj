@@ -97,6 +97,7 @@
     <Compile Include="MeetingRoomsII.cs" />
     <Compile Include="MinimumWindowSubstring.cs" />
     <Compile Include="MinStack.cs" />
+    <Compile Include="MostCommonWordProblem.cs" />
     <Compile Include="MostStonesRemovedWithSameRowOrColumn.cs" />
     <Compile Include="NumberOfIslands.cs" />
     <Compile Include="OddEvenJump.cs" />
