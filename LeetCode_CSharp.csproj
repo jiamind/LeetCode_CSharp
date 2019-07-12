@@ -51,6 +51,7 @@
     <Compile Include="BestTimetoBuyandSellStockIV.cs" />
     <Compile Include="BinaryTreeVerticalOrderTraversal.cs" />
     <Compile Include="BurstBalloons.cs" />
+    <Compile Include="PartitionLabelsProblem.cs" />
     <Compile Include="ConvertBinarySearchTreeToSortedDoublyLinkedList.cs" />
     <Compile Include="KClosestPointsToOrigin.cs" />
     <Compile Include="LargestBSTSubtreeProblem.cs" />
