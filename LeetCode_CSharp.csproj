@@ -108,6 +108,7 @@
     <Compile Include="PerfectSquares.cs" />
     <Compile Include="PermutationII.cs" />
     <Compile Include="PowerOfThree.cs" />
+    <Compile Include="PrisonCellsAfterNDays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MaxPointsOnALine.cs" />
