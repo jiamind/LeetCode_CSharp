@@ -51,6 +51,8 @@
     <Compile Include="BestTimetoBuyandSellStockIV.cs" />
     <Compile Include="BinaryTreeVerticalOrderTraversal.cs" />
     <Compile Include="BurstBalloons.cs" />
+    <Compile Include="MaximumSizeSubarraySumEqualsK.cs" />
+    <Compile Include="MinimumCostToMergeStones.cs" />
     <Compile Include="PartitionLabelsProblem.cs" />
     <Compile Include="ConvertBinarySearchTreeToSortedDoublyLinkedList.cs" />
     <Compile Include="KClosestPointsToOrigin.cs" />

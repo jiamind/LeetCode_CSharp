@@ -61,7 +61,8 @@ namespace LeetCode_CSharp
             //RunKClosestPointsToOrigin();
             //RunShortestDistanceFromAllBuildings();
             //RunPermutationII();
-            RunAccountMerge();
+            //RunAccountMerge();
+            RunMinimumCostToMergeStones();
 
             Console.ReadKey();
         }
@@ -705,6 +706,16 @@ namespace LeetCode_CSharp
                 new List<string>() { "Lily","Lily0@m.co","Lily1@m.co"}
             };
             test.AccountsMerge(input);
+        }
+        #endregion
+
+        #region MinimumCostToMergeStones
+        public static void RunMinimumCostToMergeStones()
+        {
+            MinimumCostToMergeStones test = new MinimumCostToMergeStones();
+            int[] stones = { 1,2};
+            int k = 2;
+            Console.WriteLine(test.MergeStones(stones, k));
         }
         #endregion
 
