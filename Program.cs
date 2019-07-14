@@ -63,6 +63,7 @@ namespace LeetCode_CSharp
             //RunPermutationII();
             //RunAccountMerge();
             RunMinimumCostToMergeStones();
+            //RunRobotRemoveObstacle();
 
             Console.ReadKey();
         }
@@ -713,11 +714,23 @@ namespace LeetCode_CSharp
         public static void RunMinimumCostToMergeStones()
         {
             MinimumCostToMergeStones test = new MinimumCostToMergeStones();
-            int[] stones = { 1,2};
+            int[] stones = { 20,4,8,2};
             int k = 2;
             Console.WriteLine(test.MergeStones(stones, k));
         }
         #endregion
+
+        public static void RunRobotRemoveObstacle()
+        {
+            RobotRemovesObstacle test = new RobotRemovesObstacle();
+            int[,] lot = new int[,]
+            {
+                { 1,0,0},
+                { 1,0,0},
+                {1,9,1 }
+            };
+            Console.WriteLine(test.removeObstacle(3, 3, lot));
+        }
 
         #region HelperMethods
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable)
