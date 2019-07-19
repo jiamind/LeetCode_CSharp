@@ -62,8 +62,9 @@ namespace LeetCode_CSharp
             //RunShortestDistanceFromAllBuildings();
             //RunPermutationII();
             //RunAccountMerge();
-            RunMinimumCostToMergeStones();
+            //RunMinimumCostToMergeStones();
             //RunRobotRemoveObstacle();
+            RunSnakesAndLaddersProblem();
 
             Console.ReadKey();
         }
@@ -714,23 +715,28 @@ namespace LeetCode_CSharp
         public static void RunMinimumCostToMergeStones()
         {
             MinimumCostToMergeStones test = new MinimumCostToMergeStones();
-            int[] stones = { 20,4,8,2};
+            int[] stones = { 20, 4, 8, 2 };
             int k = 2;
             Console.WriteLine(test.MergeStones(stones, k));
         }
         #endregion
 
-        public static void RunRobotRemoveObstacle()
+        #region SnakesAndLaddersProblem
+        public static void RunSnakesAndLaddersProblem()
         {
-            RobotRemovesObstacle test = new RobotRemovesObstacle();
-            int[,] lot = new int[,]
-            {
-                { 1,0,0},
-                { 1,0,0},
-                {1,9,1 }
-            };
-            Console.WriteLine(test.removeObstacle(3, 3, lot));
+            SnakesAndLaddersProblem test = new SnakesAndLaddersProblem();
+            int[][] input = new int[6][]
+                {
+                    new int[] { -1, -1, -1, -1, -1, -1 },
+                    new int[] { -1, -1, -1, -1, -1, -1 },
+                    new int[] { -1, -1, -1, -1, -1, -1 },
+                    new int[] { -1, 35, -1, -1, 13, -1 },
+                    new int[] { -1, -1, -1, -1, -1, -1 },
+                    new int[] { -1, 15, -1, -1, -1, -1 }
+                };
+            Console.WriteLine(test.SnakesAndLadders(input));
         }
+        #endregion
 
         #region HelperMethods
         public static void PrintEnumerable<T>(IEnumerable<T> enumerable)

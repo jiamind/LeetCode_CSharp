@@ -124,6 +124,7 @@
     <Compile Include="RobotRemovesObstacle.cs" />
     <Compile Include="RobotReturnToOrigin.cs" />
     <Compile Include="ShortestDistanceFromAllBuildings.cs" />
+    <Compile Include="SnakesAndLaddersProblem.cs" />
     <Compile Include="SparseMatrixMultiplication.cs" />
     <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
