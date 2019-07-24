@@ -64,7 +64,8 @@ namespace LeetCode_CSharp
             //RunAccountMerge();
             //RunMinimumCostToMergeStones();
             //RunRobotRemoveObstacle();
-            RunSnakesAndLaddersProblem();
+            //RunSnakesAndLaddersProblem();
+            RunCutOffTreesForGolfEvent();
 
             Console.ReadKey();
         }
@@ -735,6 +736,22 @@ namespace LeetCode_CSharp
                     new int[] { -1, 15, -1, -1, -1, -1 }
                 };
             Console.WriteLine(test.SnakesAndLadders(input));
+        }
+        #endregion
+
+        #region CutOffTreesForGolfEvent
+        public static void RunCutOffTreesForGolfEvent()
+        {
+            CutOffTreesForGolfEvent test = new CutOffTreesForGolfEvent();
+            List<IList<int>> forest = new List<IList<int>>()
+            {
+                new List<int>{ 54581641, 64080174, 24346381, 69107959},
+                new List<int>{ 86374198, 61363882, 68783324, 79706116},
+                new List<int>{ 668150, 92178815, 89819108, 94701471 },
+                new List<int>{ 83920491, 22724204, 46281641, 47531096 },
+                new List<int>{ 89078499, 18904913, 25462145, 60813308 }
+            };
+            Console.WriteLine(test.CutOffTree(forest));
         }
         #endregion
 
