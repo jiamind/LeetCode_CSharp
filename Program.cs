@@ -65,7 +65,9 @@ namespace LeetCode_CSharp
             //RunMinimumCostToMergeStones();
             //RunRobotRemoveObstacle();
             //RunSnakesAndLaddersProblem();
-            RunCutOffTreesForGolfEvent();
+            //RunCutOffTreesForGolfEvent();
+            //RunPrisonCellAfterNDays();
+            RunLRUCache();
 
             Console.ReadKey();
         }
@@ -752,6 +754,28 @@ namespace LeetCode_CSharp
                 new List<int>{ 89078499, 18904913, 25462145, 60813308 }
             };
             Console.WriteLine(test.CutOffTree(forest));
+        }
+        #endregion
+
+        #region PrisonCellsAfterNDays
+        public static void RunPrisonCellAfterNDays()
+        {
+            PrisonCellsAfterNDays test = new PrisonCellsAfterNDays();
+            int[] cells = new int[] { 0, 1, 0, 1, 1, 0, 0, 1 };
+            int n = 7;
+            test.PrisonAfterNDays(cells, n);
+        }
+        #endregion
+
+        #region LRUCache
+        public static void RunLRUCache()
+        {
+            LRUCache test = new LRUCache(1);
+            test.Put(2,1);
+            test.Get(2);
+            test.Put(3, 2);
+            test.Get(2);
+            test.Get(3);
         }
         #endregion
 
