@@ -76,7 +76,7 @@ namespace LeetCode_CSharp
         }
 
         /// <summary>
-        /// Print the lexicographical order of the language using the dictionarys
+        /// Print the lexicographical order of the language using the dictionaries
         /// </summary>
         /// <param name="sb">the string builder</param>
         /// <param name="numberOfCharactersBefore">the dictionary of number of characters before each character</param>
@@ -84,7 +84,7 @@ namespace LeetCode_CSharp
         private void PrintLexicoOrder(StringBuilder sb, Dictionary<char, int> numberOfCharactersBefore, Dictionary<char, HashSet<char>> charactersAfter)
         {
             // We find the next character to print (the next character should have no characters before it)
-            if (numberOfCharactersBefore.Any(pair => pair.Value == 0))
+            while (numberOfCharactersBefore.Any(pair => pair.Value == 0))
             {
                 char c = numberOfCharactersBefore.Where(pair => pair.Value == 0).First().Key;
                 sb.Append(c);
@@ -98,8 +98,6 @@ namespace LeetCode_CSharp
                 {
                     numberOfCharactersBefore[a]--;
                 }
-
-                PrintLexicoOrder(sb, numberOfCharactersBefore, charactersAfter);
             }
         }
     }
