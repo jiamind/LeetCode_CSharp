@@ -50,6 +50,7 @@
     <Compile Include="ConcatenatedWords.cs" />
     <Compile Include="CourseSchedule.cs" />
     <Compile Include="CutOffTreesForGolfEvent.cs" />
+    <Compile Include="IsGraphBipartite.cs" />
     <Compile Include="LRUCache.cs" />
     <Compile Include="MinimumTimeToAssembleParts.cs" />
     <Compile Include="BackspaceStringCompare.cs" />
