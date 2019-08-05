@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace LeetCode_CSharp
@@ -65,9 +65,7 @@ namespace LeetCode_CSharp
             //RunMinimumCostToMergeStones();
             //RunRobotRemoveObstacle();
             //RunSnakesAndLaddersProblem();
-            //RunCutOffTreesForGolfEvent();
-            //RunPrisonCellAfterNDays();
-            RunLRUCache();
+            RunDesignSearchAutocompleteSystem();
 
             Console.ReadKey();
         }
@@ -738,6 +736,7 @@ namespace LeetCode_CSharp
                     new int[] { -1, 15, -1, -1, -1, -1 }
                 };
             Console.WriteLine(test.SnakesAndLadders(input));
+<<<<<<< Updated upstream
         }
         #endregion
 
@@ -776,6 +775,19 @@ namespace LeetCode_CSharp
             test.Put(3, 2);
             test.Get(2);
             test.Get(3);
+        }
+        #endregion
+
+        #region DesignSearchAutocompleteSystem
+        public static void RunDesignSearchAutocompleteSystem()
+        {
+            string[] sentences = { "i love you", "island", "ironman", "i love leetcode" };
+            int[] times = { 5, 3, 2, 2 };
+            AutocompleteSystem test = new AutocompleteSystem(sentences, times);
+            test.Input('i');
+            test.Input(' ');
+            test.Input('a');
+            test.Input('#');
         }
         #endregion
 

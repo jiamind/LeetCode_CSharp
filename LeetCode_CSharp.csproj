@@ -146,6 +146,7 @@
     <Compile Include="BinarySearchTreeIterator.cs" />
     <Compile Include="NQeens.cs" />
     <Compile Include="TheMazeII.cs" />
+    <Compile Include="DesignSearchAutocompleteSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
