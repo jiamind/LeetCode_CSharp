@@ -65,7 +65,8 @@ namespace LeetCode_CSharp
             //RunMinimumCostToMergeStones();
             //RunRobotRemoveObstacle();
             //RunSnakesAndLaddersProblem();
-            RunDesignSearchAutocompleteSystem();
+            //RunDesignSearchAutocompleteSystem();
+            RunAllNodesDistanceKInBinaryTree();
 
             Console.ReadKey();
         }
@@ -736,7 +737,6 @@ namespace LeetCode_CSharp
                     new int[] { -1, 15, -1, -1, -1, -1 }
                 };
             Console.WriteLine(test.SnakesAndLadders(input));
-<<<<<<< Updated upstream
         }
         #endregion
 
@@ -770,7 +770,7 @@ namespace LeetCode_CSharp
         public static void RunLRUCache()
         {
             LRUCache test = new LRUCache(1);
-            test.Put(2,1);
+            test.Put(2, 1);
             test.Get(2);
             test.Put(3, 2);
             test.Get(2);
@@ -788,6 +788,33 @@ namespace LeetCode_CSharp
             test.Input(' ');
             test.Input('a');
             test.Input('#');
+        }
+        #endregion
+
+        #region AllNodesDistanceKInBinaryTree
+        public static void RunAllNodesDistanceKInBinaryTree()
+        {
+            AllNodesDistanceKInBinaryTree test = new AllNodesDistanceKInBinaryTree();
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node0 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(0);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node1 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(1);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node2 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(2);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node3 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(3);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node4 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(4);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node5 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(5);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node6 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(6);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node7 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(7);
+            AllNodesdistanceKInBinaryTree_NS.TreeNode node8 = new AllNodesdistanceKInBinaryTree_NS.TreeNode(8);
+
+            node3.left = node5;
+            node3.right = node1;
+            node5.left = node6;
+            node5.right = node2;
+            node2.left = node7;
+            node2.right = node4;
+            node1.left = node0;
+            node1.right = node8;
+
+            test.DistanceK(node3, node5, 2);
         }
         #endregion
 

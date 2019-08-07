@@ -46,6 +46,7 @@
     <Compile Include="AddAndSearchWord.cs" />
     <Compile Include="AddStringsProblem.cs" />
     <Compile Include="AlienDictionary.cs" />
+    <Compile Include="AllNodesDistanceKInBinaryTree.cs" />
     <Compile Include="BoundaryOfBinaryTreeProblem.cs" />
     <Compile Include="ConcatenatedWords.cs" />
     <Compile Include="CourseSchedule.cs" />
