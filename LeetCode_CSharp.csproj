@@ -133,6 +133,7 @@
     <Compile Include="ShortestDistanceFromAllBuildings.cs" />
     <Compile Include="SnakesAndLaddersProblem.cs" />
     <Compile Include="SparseMatrixMultiplication.cs" />
+    <Compile Include="StringCompression.cs" />
     <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
