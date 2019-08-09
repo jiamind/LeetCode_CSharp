@@ -142,6 +142,7 @@
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="SearchA2DMatrixII.cs" />
     <Compile Include="TaskScheduler.cs" />
+    <Compile Include="TopKFrequentWords.cs" />
     <Compile Include="UniqueEmailAddresses.cs" />
     <Compile Include="VerifyAnAlienDictionary.cs" />
     <Compile Include="WiggleSortProblem.cs" />
