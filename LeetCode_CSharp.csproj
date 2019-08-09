@@ -53,6 +53,7 @@
     <Compile Include="CutOffTreesForGolfEvent.cs" />
     <Compile Include="FloodFillProblem.cs" />
     <Compile Include="IsGraphBipartite.cs" />
+    <Compile Include="LongestSubstringWithAtMostKDistinctCharacters.cs" />
     <Compile Include="LRUCache.cs" />
     <Compile Include="MinimumTimeToAssembleParts.cs" />
     <Compile Include="BackspaceStringCompare.cs" />
