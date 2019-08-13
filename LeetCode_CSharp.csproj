@@ -51,7 +51,9 @@
     <Compile Include="ConcatenatedWords.cs" />
     <Compile Include="CourseSchedule.cs" />
     <Compile Include="CutOffTreesForGolfEvent.cs" />
+    <Compile Include="FloodFillProblem.cs" />
     <Compile Include="IsGraphBipartite.cs" />
+    <Compile Include="LongestSubstringWithAtMostKDistinctCharacters.cs" />
     <Compile Include="LRUCache.cs" />
     <Compile Include="MinimumTimeToAssembleParts.cs" />
     <Compile Include="BackspaceStringCompare.cs" />
@@ -134,12 +136,14 @@
     <Compile Include="ShortestDistanceFromAllBuildings.cs" />
     <Compile Include="SnakesAndLaddersProblem.cs" />
     <Compile Include="SparseMatrixMultiplication.cs" />
+    <Compile Include="StringCompression.cs" />
     <Compile Include="SubarraySumEqualsK.cs" />
     <Compile Include="SummaryRangesProblem.cs" />
     <Compile Include="MaximumProductSubarray.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="SearchA2DMatrixII.cs" />
     <Compile Include="TaskScheduler.cs" />
+    <Compile Include="TopKFrequentWords.cs" />
     <Compile Include="UniqueEmailAddresses.cs" />
     <Compile Include="VerifyAnAlienDictionary.cs" />
     <Compile Include="WiggleSortProblem.cs" />
