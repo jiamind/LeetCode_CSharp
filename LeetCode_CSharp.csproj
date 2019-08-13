@@ -134,6 +134,7 @@
     <Compile Include="RobotReturnToOrigin.cs" />
     <Compile Include="RottingOranges.cs" />
     <Compile Include="ShortestDistanceFromAllBuildings.cs" />
+    <Compile Include="SingleElementInASortedArray.cs" />
     <Compile Include="SnakesAndLaddersProblem.cs" />
     <Compile Include="SparseMatrixMultiplication.cs" />
     <Compile Include="StringCompression.cs" />
